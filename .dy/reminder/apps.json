@@ -1,0 +1,14 @@
+[
+    {
+        "name": "reminder-web",
+        "path": "/Users/yadavdip/dipeshfort/reminder-web"
+    },
+    {
+        "name": "reminder-api",
+        "path": "/Users/yadavdip/dipeshfort/reminder-api"
+    },
+    {
+        "name": "reminder-db",
+        "image": "postgres:9.6"
+    }
+]

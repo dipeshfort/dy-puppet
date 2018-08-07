@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mischief Managed</title>
+    <style>
+        * {
+           box-sizing: border-box; 
+        }
+        section {
+            margin-bottom: 10px;
+            background-color: #ddd;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            padding: 10px 15px;
+        }
+        .container {
+            display: flex;
+            flex-direction: vertical;
+        }
+        #console-output {
+            background-color: #111;
+            color: #eee;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="item">
+            Authentication Service
+            <button id="start-auth">Start</button>
+            <button id="stop-auth">Stop</button>
+        </div>
+    </section>   
+    <section class="container">
+        <div class="item">
+            <label>Dna-Cache (Redis)</label>
+            <button id="start-redis">Start</button>
+            <button id="stop-redis">Stop</button>
+        </div>
+    </section>
+    <section>
+        <button id="service-status">Status</button>
+    </section>
+    <section id="console-output">
+        <code>
+        </code>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
